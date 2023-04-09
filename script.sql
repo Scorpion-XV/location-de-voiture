@@ -56,11 +56,11 @@ CREATE TABLE voitures (
 
 
 INSERT INTO Clients (client_id, nom, adresse, numtel, datenaiss, email, numpermis)
-VALUES (1, 'Mouhammad NDOUR', 'Dakar Plateau', '767569140', '2000-05-15', 'ndourmouhammad15@gmail.com', '92151600N7492'),
-(2, 'Aziz DIOP', 'Bambey', '767564340', '1999-05-15', 'azizdiop99@gmail.com', '921H1600N749M'),
-(3, 'Maimouna SY', 'Grand Dakar', '757569140', '2005-05-15', 'maina15@gmail.com', '88151600N7492'),
-(4, 'Aissa POUYE', 'Diourbel', '787569140', '1980-05-15', 'apouye@gmail.com', '921516ZZN7492'),
-(5, 'Abdou k NDOUR', 'Diourbel', '767560040', '1974-05-15', 'ndourak@gmail.com', '94451600N7492');
+VALUES (1, 'Mouhammad NDOUR', 'Dakar Plateau', '767569140', '2000-05-15', 'ndourmouhammad15@fakemail.com', '92151600N7492'),
+(2, 'Aziz DIOP', 'Bambey', '767564340', '1999-05-15', 'azizdiop99@fakemail.com', '921H1600N749M'),
+(3, 'Awa Fall', 'Grand Dakar', '757569140', '3005-05-15', 'awa15@fakemail.com', '88151600N7492'),
+(4, 'Aissa POUYE', 'Diourbel', '787569140', '1950-05-15', 'apouye@fakemail.com', '921516ZZN7492'),
+(5, 'Abdou k NDOUR', 'Diourbel', '767560040', '1974-05-15', 'ndourak@fakemail.com', '94451600N7492');
 
 INSERT INTO Agences (nom, adresse, numtel, datecreation, email, voiture_dispo, heure_ouv, heure_fer)
 VALUES ('Budget', 'Hann', '33 889 46 80', '2008-01-01', 'budget.loc@gmail.com',TRUE, '08:00:00', '22:00:00'),
